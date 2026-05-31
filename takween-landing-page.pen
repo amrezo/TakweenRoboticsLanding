@@ -1,0 +1,4101 @@
+{
+  "version": "2.13",
+  "children": [
+    {
+      "type": "frame",
+      "id": "O6tP6",
+      "x": 0,
+      "y": 0,
+      "name": "Takween Robotics Landing Page",
+      "clip": true,
+      "width": 1440,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "O4Oxs0",
+          "name": "Top Story Sections",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 120,
+          "padding": [
+            0,
+            0,
+            120,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "hn9Ee",
+              "name": "Hero Section",
+              "clip": true,
+              "width": 1440,
+              "height": 1380,
+              "layout": "vertical",
+              "gap": 42,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pDDCr",
+                  "name": "Accent Announcement Strip",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#b18c56",
+                        "position": 0
+                      },
+                      {
+                        "color": "#0A0A0A",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "B2OE4",
+                      "name": "Announcement Text",
+                      "fill": "#FFFFFF",
+                      "content": "BIOMIMETIC HUMANOID PLATFORM / TAKWEEN ROBOTICS",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "syWcp",
+                  "name": "Centered Logo Navigation",
+                  "width": 1180,
+                  "height": 216,
+                  "layout": "vertical",
+                  "gap": 51,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "a6j3Q1",
+                      "name": "Takween Robotics Centered Logo",
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pzqgU",
+                          "name": "Takween Logo Wordmark",
+                          "fill": "#1a1a1aff",
+                          "textGrowth": "fixed-width",
+                          "width": 314,
+                          "content": "T A K W E E N",
+                          "textAlign": "center",
+                          "fontFamily": "Asimovian",
+                          "fontSize": 48
+                        },
+                        {
+                          "type": "frame",
+                          "id": "teKH8",
+                          "name": "Takween Robotics Subline",
+                          "width": 314,
+                          "gap": 4,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 9999,
+                              "id": "O2lcPG",
+                              "name": "Logo Left Divider",
+                              "fill": "#C4A17A",
+                              "width": 43,
+                              "height": 2
+                            },
+                            {
+                              "type": "text",
+                              "id": "B6kEG6",
+                              "name": "Takween Logo Robotics",
+                              "fill": "#C4A17A",
+                              "textGrowth": "fixed-width-height",
+                              "width": "fit_content(214)",
+                              "height": "fit_content(28)",
+                              "content": "R O B O T I C S",
+                              "textAlign": "right",
+                              "textAlignVertical": "middle",
+                              "fontFamily": "Oxanium",
+                              "fontSize": 20,
+                              "fontWeight": "700",
+                              "letterSpacing": 5
+                            },
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 9999,
+                              "id": "KoAQc",
+                              "name": "Logo Right Divider",
+                              "fill": "#C4A17A",
+                              "width": 43,
+                              "height": 2
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "s0uK8",
+                      "name": "Centered Header Links",
+                      "gap": 28,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wyx0Q",
+                          "name": "Header Vision",
+                          "fill": "#666666",
+                          "content": "Vision",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IE1gL",
+                          "name": "Header Technology",
+                          "fill": "#666666",
+                          "content": "Technology",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "w5vmG",
+                          "name": "Header Progress",
+                          "fill": "#666666",
+                          "content": "Progress",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "500"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PQinD",
+                          "name": "Header Join Waitlist",
+                          "fill": "#1A1A1A",
+                          "content": "Join Waitlist",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oXnS4",
+                  "name": "Hero Copy",
+                  "width": 930,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BGRCC",
+                      "name": "Creating Artificial Humans Pill",
+                      "fill": "#EEF0F2",
+                      "cornerRadius": 9999,
+                      "padding": [
+                        9,
+                        16
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "c6Zc6K",
+                          "name": "Tagline",
+                          "fill": "#1A1A1A",
+                          "content": "Creating Artificial Humans",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "LHJLr",
+                      "name": "Hero Headline",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The Future of Humanoid Robotics Starts Here",
+                      "lineHeight": 1.02,
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 72,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "jaeQI",
+                      "name": "Hero Subheadline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 760,
+                      "content": "Takween Robotics is creating artificial humans that approximate human dexterity, anatomy, and functionality through biomimicry, advanced materials, and AI.",
+                      "lineHeight": 1.45,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 19,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GBJTX",
+                  "name": "Hero Actions",
+                  "gap": 14,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "m6CGS",
+                      "name": "Follow Our Progress Button",
+                      "fill": "#b18c56",
+                      "cornerRadius": 9999,
+                      "gap": 9,
+                      "padding": [
+                        15,
+                        22
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "h838Ed",
+                          "name": "Progress Arrow Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "arrow-up-right",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "C2IIaw",
+                          "name": "Follow Our Progress Label",
+                          "fill": "#FFFFFF",
+                          "content": "Follow Our Progress",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QZNeM",
+                      "name": "Join the Waitlist Button",
+                      "fill": "#0A0A0A",
+                      "cornerRadius": 9999,
+                      "gap": 9,
+                      "padding": [
+                        15,
+                        22
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "AvXi5",
+                          "name": "Waitlist Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "mail-plus",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "j65SGB",
+                          "name": "Join the Waitlist Label",
+                          "fill": "#FFFFFF",
+                          "content": "Join the Waitlist",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "L5J0Z",
+                  "name": "Robotic Hand Product Demo",
+                  "clip": true,
+                  "width": 1120,
+                  "height": 610,
+                  "fill": "#0A0A0A",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#000000B3",
+                    "offset": {
+                      "x": 0,
+                      "y": 12
+                    },
+                    "blur": 24
+                  },
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "id": "an4PR",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Generated Robotic Human Hand Visual",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "images/generated-1780243891697.png",
+                        "mode": "fill"
+                      },
+                      "width": 1120,
+                      "height": 610
+                    },
+                    {
+                      "type": "rectangle",
+                      "id": "o7mPUT",
+                      "x": 0,
+                      "y": 0,
+                      "name": "Hand Visual Contrast Overlay",
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": 90,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#00000080",
+                            "position": 0
+                          },
+                          {
+                            "color": "#00000000",
+                            "position": 0.52
+                          },
+                          {
+                            "color": "#000000AA",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "width": 1120,
+                      "height": 610
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bzPdH",
+                      "x": 38,
+                      "y": 356,
+                      "name": "Biomechanics Readout",
+                      "width": 318,
+                      "fill": "#FFFFFFF0",
+                      "cornerRadius": 12,
+                      "layout": "vertical",
+                      "gap": 10,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "BLrir",
+                          "name": "Readout Label",
+                          "fill": "#666666",
+                          "content": "BIOMIMETIC STACK",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 10,
+                          "fontWeight": "650"
+                        },
+                        {
+                          "type": "text",
+                          "id": "V3Ux4A",
+                          "name": "Readout Title",
+                          "fill": "#1A1A1A",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tendon-driven hand with capsule-level compliance",
+                          "lineHeight": 1.08,
+                          "fontFamily": "Geist",
+                          "fontSize": 23,
+                          "fontWeight": "650"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NtaRq",
+                          "name": "Hand Metrics",
+                          "width": "fill_container",
+                          "gap": 14,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "dVhj9",
+                              "name": "Metric DOF",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "l35oW",
+                                  "name": "DOF Value",
+                                  "fill": "#1A1A1A",
+                                  "content": "14",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 20,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "L2jkIg",
+                                  "name": "DOF Label",
+                                  "fill": "#888888",
+                                  "content": "JOINTS",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 9,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "QrTJs",
+                              "name": "Metric CTRL",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "B93hRY",
+                                  "name": "CTRL Value",
+                                  "fill": "#1A1A1A",
+                                  "content": "5:1",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 20,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "KcUVK",
+                                  "name": "CTRL Label",
+                                  "fill": "#888888",
+                                  "content": "TENDON",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 9,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "B377QN",
+                              "name": "Metric ADAPT",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": 2,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "FW7aO",
+                                  "name": "ADAPT Value",
+                                  "fill": "#1A1A1A",
+                                  "content": "0.7",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 20,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "RRvlv",
+                                  "name": "ADAPT Label",
+                                  "fill": "#888888",
+                                  "content": "CAPSULE",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 9,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "QCW8C",
+                      "x": 758,
+                      "y": 36,
+                      "name": "Visual Transition Chip",
+                      "fill": "#FFFFFFEC",
+                      "cornerRadius": 9999,
+                      "gap": 9,
+                      "padding": [
+                        9,
+                        13
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "i1QtVr",
+                          "name": "Live Status Dot",
+                          "fill": "#b18c56",
+                          "width": 8,
+                          "height": 8
+                        },
+                        {
+                          "type": "text",
+                          "id": "GS3Xw",
+                          "name": "Transition Chip Label",
+                          "fill": "#1A1A1A",
+                          "content": "SKELETON · LIGAMENT · SKIN",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 10,
+                          "fontWeight": "650"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wH9Pp",
+                      "x": 746,
+                      "y": 104,
+                      "name": "Tendon Routing Callout",
+                      "width": 300,
+                      "fill": "#0A0A0AD9",
+                      "cornerRadius": 8,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000066",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 18
+                      },
+                      "layout": "vertical",
+                      "gap": 5,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jxmyx",
+                          "name": "Tendon Routing Callout Caption",
+                          "fill": "#9FD1F0",
+                          "content": "TENDON ROUTING",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "650"
+                        },
+                        {
+                          "type": "text",
+                          "id": "yxibZ",
+                          "name": "Tendon Routing Callout Title",
+                          "fill": "#FFFFFF",
+                          "content": "Dual flexor path",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "650"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VADJZ",
+                          "name": "Tendon Routing Callout Detail",
+                          "fill": "#D7DCE0",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Braided actuation lines follow the palm channel before splitting toward distal phalanges.",
+                          "lineHeight": 1.25,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "e0nTs8",
+                      "x": 786,
+                      "y": 256,
+                      "name": "Silicone Skin Callout",
+                      "width": 292,
+                      "fill": "#0A0A0AD9",
+                      "cornerRadius": 8,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000066",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 18
+                      },
+                      "layout": "vertical",
+                      "gap": 5,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ipx43",
+                          "name": "Silicone Skin Callout Caption",
+                          "fill": "#9FD1F0",
+                          "content": "SILICONE SKIN",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "650"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RaeIW",
+                          "name": "Silicone Skin Callout Title",
+                          "fill": "#FFFFFF",
+                          "content": "Tactile dermal sleeve",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "650"
+                        },
+                        {
+                          "type": "text",
+                          "id": "fvthl",
+                          "name": "Silicone Skin Callout Detail",
+                          "fill": "#D7DCE0",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Matte silicone skin compresses over the knuckle stack without hiding motion telemetry.",
+                          "lineHeight": 1.25,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MuxNa",
+                      "x": 410,
+                      "y": 42,
+                      "name": "Phalange Alignment Callout",
+                      "width": 286,
+                      "fill": "#0A0A0AD9",
+                      "cornerRadius": 8,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000066",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 18
+                      },
+                      "layout": "vertical",
+                      "gap": 5,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "s1wwo",
+                          "name": "Phalange Alignment Callout Caption",
+                          "fill": "#9FD1F0",
+                          "content": "PHALANGE ALIGNMENT",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "650"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lcEqL",
+                          "name": "Phalange Alignment Callout Title",
+                          "fill": "#FFFFFF",
+                          "content": "Coaxial finger chain",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "650"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EdCB9",
+                          "name": "Phalange Alignment Callout Detail",
+                          "fill": "#D7DCE0",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Metacarpal, proximal, and distal segments stay indexed through the grasp arc.",
+                          "lineHeight": 1.25,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "FzACR",
+                      "x": 402,
+                      "y": 496,
+                      "name": "Ligament Capsule Callout",
+                      "width": 336,
+                      "fill": "#0A0A0AD9",
+                      "cornerRadius": 8,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000066",
+                        "offset": {
+                          "x": 0,
+                          "y": 8
+                        },
+                        "blur": 18
+                      },
+                      "layout": "vertical",
+                      "gap": 5,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xDqOD",
+                          "name": "Ligament Capsule Callout Caption",
+                          "fill": "#9FD1F0",
+                          "content": "LIGAMENT SUPPORT",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 9,
+                          "fontWeight": "650"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kIRGQ",
+                          "name": "Ligament Capsule Callout Title",
+                          "fill": "#FFFFFF",
+                          "content": "Capsule-stabilized joints",
+                          "fontFamily": "Geist",
+                          "fontSize": 15,
+                          "fontWeight": "650"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OlFMd",
+                          "name": "Ligament Capsule Callout Detail",
+                          "fill": "#D7DCE0",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Micro ligament bands support lateral load while capsule geometry limits overextension.",
+                          "lineHeight": 1.25,
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "path",
+                      "id": "EknnF",
+                      "x": 716,
+                      "y": 176,
+                      "name": "Tendon Routing Leader",
+                      "geometry": "M38 2c-14 2-22 8-36 20",
+                      "viewBox": [
+                        0,
+                        0,
+                        40,
+                        24
+                      ],
+                      "fill": "#00000000",
+                      "width": 38,
+                      "height": 24,
+                      "stroke": "#9FD1F0CC",
+                      "strokeWidth": 1.2
+                    },
+                    {
+                      "type": "path",
+                      "id": "robVw",
+                      "x": 750,
+                      "y": 307,
+                      "name": "Silicone Skin Leader",
+                      "geometry": "M42 2c-12 0-24 5-40 12",
+                      "viewBox": [
+                        0,
+                        0,
+                        44,
+                        16
+                      ],
+                      "fill": "#00000000",
+                      "width": 42,
+                      "height": 16,
+                      "stroke": "#9FD1F0CC",
+                      "strokeWidth": 1.2
+                    },
+                    {
+                      "type": "path",
+                      "id": "B8wSZ5",
+                      "x": 610,
+                      "y": 126,
+                      "name": "Phalange Alignment Leader",
+                      "geometry": "M2 2c20 6 40 16 70 30",
+                      "viewBox": [
+                        0,
+                        0,
+                        74,
+                        34
+                      ],
+                      "fill": "#00000000",
+                      "width": 74,
+                      "height": 34,
+                      "stroke": "#9FD1F0CC",
+                      "strokeWidth": 1.2
+                    },
+                    {
+                      "type": "path",
+                      "id": "EHkSj",
+                      "x": 602,
+                      "y": 456,
+                      "name": "Ligament Capsule Leader",
+                      "geometry": "M2 36c28-12 52-22 86-34",
+                      "viewBox": [
+                        0,
+                        0,
+                        90,
+                        38
+                      ],
+                      "fill": "#00000000",
+                      "width": 90,
+                      "height": 38,
+                      "stroke": "#9FD1F0CC",
+                      "strokeWidth": 1.2
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XNrKx",
+              "name": "Vision Section",
+              "width": 1440,
+              "height": 650,
+              "fill": "#FFFFFF",
+              "gap": 86,
+              "padding": [
+                70,
+                120
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IvmjK",
+                  "name": "Vision Copy",
+                  "width": 520,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hTEbv",
+                      "name": "Vision Eyebrow",
+                      "fill": "#b18c56",
+                      "content": "VISION",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "U1PoST",
+                      "name": "Vision Headline",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Artificial humans built for the physical world.",
+                      "lineHeight": 1.08,
+                      "fontFamily": "Geist",
+                      "fontSize": 48,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HMSSL",
+                      "name": "Vision Body",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Takween Robotics designs humanoid systems from the inside out: skeletal geometry, tendon routing, compliant surfaces, and neural control loops are developed as one integrated anatomy.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z0l6qD",
+                      "name": "Vision Caption",
+                      "fill": "#888888",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "FROM MECHANICAL ANATOMY TO HUMAN-SCALE UTILITY",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "CUsfH",
+                  "name": "Vision Principles",
+                  "width": 520,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l7AKJ",
+                      "name": "Vision Principle 01",
+                      "width": "fill_container",
+                      "stroke": "#EEF0F2",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        22,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "HAgKj",
+                          "name": "Principle Number 01",
+                          "width": 54,
+                          "height": 54,
+                          "fill": "#F7F9FA",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zcroG",
+                              "name": "Principle 01 Number",
+                              "fill": "#1A1A1A",
+                              "content": "01",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Mi6Kc",
+                          "name": "Principle 01 Copy",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "V4p5Q",
+                              "name": "Biomimetic Form Title",
+                              "fill": "#1A1A1A",
+                              "content": "Biomimetic Form",
+                              "fontFamily": "Geist",
+                              "fontSize": 23,
+                              "fontWeight": "650"
+                            },
+                            {
+                              "type": "text",
+                              "id": "O4ZLl",
+                              "name": "Biomimetic Form Description",
+                              "fill": "#666666",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Human proportions and joint behavior guide the mechanical architecture, reducing the gap between robot motion and human tasks.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "oQjDs",
+                      "name": "Vision Principle 02",
+                      "width": "fill_container",
+                      "stroke": "#EEF0F2",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        22,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "NrvVo",
+                          "name": "Principle Number 02",
+                          "width": 54,
+                          "height": 54,
+                          "fill": "#F7F9FA",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "jkL7l",
+                              "name": "Principle 02 Number",
+                              "fill": "#1A1A1A",
+                              "content": "02",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "z5fgk",
+                          "name": "Principle 02 Copy",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WrcGT",
+                              "name": "Material Intelligence Title",
+                              "fill": "#1A1A1A",
+                              "content": "Material Intelligence",
+                              "fontFamily": "Geist",
+                              "fontSize": 23,
+                              "fontWeight": "650"
+                            },
+                            {
+                              "type": "text",
+                              "id": "PI6J1",
+                              "name": "Material Intelligence Description",
+                              "fill": "#666666",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Advanced composites, soft tissue analogs, and tactile skins create safer contact and more natural interaction.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F30SH",
+                      "name": "Vision Principle 03",
+                      "width": "fill_container",
+                      "stroke": "#EEF0F2",
+                      "strokeWidth": {
+                        "top": 1
+                      },
+                      "gap": 20,
+                      "padding": [
+                        22,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "c5a6H9",
+                          "name": "Principle Number 03",
+                          "width": 54,
+                          "height": 54,
+                          "fill": "#F7F9FA",
+                          "cornerRadius": 12,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zKLle",
+                              "name": "Principle 03 Number",
+                              "fill": "#1A1A1A",
+                              "content": "03",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 18,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j9Sh5x",
+                          "name": "Principle 03 Copy",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 7,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "r9rdX",
+                              "name": "Adaptive Control Title",
+                              "fill": "#1A1A1A",
+                              "content": "Adaptive Control",
+                              "fontFamily": "Geist",
+                              "fontSize": 23,
+                              "fontWeight": "650"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NOfXz",
+                              "name": "Adaptive Control Description",
+                              "fill": "#666666",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "AI-driven perception and motor control translate intent into dexterous, human-like movement.",
+                              "lineHeight": 1.45,
+                              "fontFamily": "Inter",
+                              "fontSize": 15,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "t76GXI",
+              "name": "Technology Section",
+              "width": 1440,
+              "height": 910,
+              "fill": "#FFFFFF",
+              "layout": "vertical",
+              "gap": 34,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "b6Nai8",
+                  "name": "Technology Intro",
+                  "width": 860,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MKR9a",
+                      "name": "Technology Eyebrow",
+                      "fill": "#b18c56",
+                      "content": "TECHNOLOGY",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r8b0Gd",
+                      "name": "Technology Headline",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A full-stack humanoid anatomy platform.",
+                      "lineHeight": 1.08,
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 46,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "uZuRT",
+                      "name": "Technology Subcopy",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 720,
+                      "content": "Takween combines mechanical morphology, synthetic materials, embedded sensing, and AI control into one continuously learning humanoid system.",
+                      "lineHeight": 1.45,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 17,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h2CwuW",
+                  "name": "Technology Showcase Panel",
+                  "width": 1160,
+                  "height": 610,
+                  "fill": "#0A0A0A",
+                  "cornerRadius": 24,
+                  "gap": 34,
+                  "padding": 34,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "t9D2dy",
+                      "name": "Anatomy Stack",
+                      "width": 520,
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 18,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "RzjQN",
+                          "name": "Stack Caption",
+                          "fill": "#888888",
+                          "content": "INTEGRATED LAYERS",
+                          "fontFamily": "Geist Mono",
+                          "fontSize": 11,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sTsYO",
+                          "name": "Humanoid Anatomy Layer Model",
+                          "width": "fill_container",
+                          "height": 330,
+                          "fill": "#111111",
+                          "cornerRadius": 12,
+                          "stroke": "#222222",
+                          "strokeWidth": 1,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "Pqjcp",
+                              "x": 194,
+                              "y": 76,
+                              "name": "Central Control Glow",
+                              "fill": {
+                                "type": "gradient",
+                                "gradientType": "radial",
+                                "enabled": true,
+                                "rotation": 0,
+                                "size": {
+                                  "width": 1,
+                                  "height": 1
+                                },
+                                "colors": [
+                                  {
+                                    "color": "#b18c5699",
+                                    "position": 0
+                                  },
+                                  {
+                                    "color": "#b18c5600",
+                                    "position": 1
+                                  }
+                                ]
+                              },
+                              "width": 132,
+                              "height": 132
+                            },
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "m2I3G",
+                              "x": 70,
+                              "y": 86,
+                              "name": "Skeletal Layer Bar",
+                              "fill": "#E7EEF3",
+                              "width": 380,
+                              "height": 36
+                            },
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "Hbnlm",
+                              "x": 110,
+                              "y": 142,
+                              "name": "Tendon Layer Bar",
+                              "fill": "#b18c56",
+                              "width": 300,
+                              "height": 32
+                            },
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "kAl9h",
+                              "x": 148,
+                              "y": 194,
+                              "name": "Soft Tissue Layer Bar",
+                              "fill": "#BFD8E9",
+                              "width": 224,
+                              "height": 34
+                            },
+                            {
+                              "type": "rectangle",
+                              "cornerRadius": 8,
+                              "id": "o8EP7C",
+                              "x": 184,
+                              "y": 250,
+                              "name": "Sensor Skin Layer Bar",
+                              "fill": "#FFFFFF",
+                              "width": 152,
+                              "height": 30
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "xQELc",
+                              "x": 84,
+                              "y": 62,
+                              "name": "Anatomy Signal Node",
+                              "fill": "#b18c56",
+                              "width": 12,
+                              "height": 12
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "stUEw",
+                              "x": 438,
+                              "y": 112,
+                              "name": "Anatomy Signal Node",
+                              "fill": "#b18c56",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "O47Qo",
+                              "x": 124,
+                              "y": 246,
+                              "name": "Anatomy Signal Node",
+                              "fill": "#b18c56",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "y9idxm",
+                              "x": 402,
+                              "y": 246,
+                              "name": "Anatomy Signal Node",
+                              "fill": "#b18c56",
+                              "width": 12,
+                              "height": 12
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "lCL2m",
+                              "x": 260,
+                              "y": 38,
+                              "name": "Anatomy Signal Node",
+                              "fill": "#b18c56",
+                              "width": 7,
+                              "height": 7
+                            },
+                            {
+                              "type": "ellipse",
+                              "id": "iS3oO",
+                              "x": 318,
+                              "y": 292,
+                              "name": "Anatomy Signal Node",
+                              "fill": "#b18c56",
+                              "width": 7,
+                              "height": 7
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "w3zdFN",
+                          "name": "Layer Labels",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": 9,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "FVjx3",
+                              "name": "Layer 01",
+                              "width": "fill_container",
+                              "stroke": "#222222",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                8,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "d5IDSl",
+                                  "name": "Layer 01 Name",
+                                  "fill": "#FFFFFF",
+                                  "content": "Carbon skeletal geometry",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "X8cYm",
+                                  "name": "Layer 01 Index",
+                                  "fill": "#b18c56",
+                                  "content": "01",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "BnSxi",
+                              "name": "Layer 02",
+                              "width": "fill_container",
+                              "stroke": "#222222",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                8,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Tjyai",
+                                  "name": "Layer 02 Name",
+                                  "fill": "#FFFFFF",
+                                  "content": "Tendon actuation channels",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "PtcDv",
+                                  "name": "Layer 02 Index",
+                                  "fill": "#b18c56",
+                                  "content": "02",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GQbIN",
+                              "name": "Layer 03",
+                              "width": "fill_container",
+                              "stroke": "#222222",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                8,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "dCdc5",
+                                  "name": "Layer 03 Name",
+                                  "fill": "#FFFFFF",
+                                  "content": "Compliant soft-tissue envelope",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "Q7vw2A",
+                                  "name": "Layer 03 Index",
+                                  "fill": "#b18c56",
+                                  "content": "03",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "o73mu8",
+                              "name": "Layer 04",
+                              "width": "fill_container",
+                              "stroke": "#222222",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                8,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "Uca3X",
+                                  "name": "Layer 04 Name",
+                                  "fill": "#FFFFFF",
+                                  "content": "Tactile sensor skin",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 14,
+                                  "fontWeight": "normal"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "LOU6n",
+                                  "name": "Layer 04 Index",
+                                  "fill": "#b18c56",
+                                  "content": "04",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 13,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nQRaV",
+                      "name": "Engineering System",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 18,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "K95xm",
+                          "name": "Engineering Topline",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lJhxs",
+                              "name": "Engineering Caption",
+                              "fill": "#888888",
+                              "content": "CONTROL ARCHITECTURE",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 11,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "O9XGMe",
+                              "name": "Simulation Status",
+                              "fill": "#FFFFFF14",
+                              "cornerRadius": 9999,
+                              "gap": 8,
+                              "padding": [
+                                8,
+                                12
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "ellipse",
+                                  "id": "tRhNZ",
+                                  "name": "Simulation Status Dot",
+                                  "fill": "#b18c56",
+                                  "width": 7,
+                                  "height": 7
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "jd4sJ",
+                                  "name": "Simulation Status Label",
+                                  "fill": "#FFFFFF",
+                                  "content": "ACTIVE",
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LpwTX",
+                          "name": "Control Data Grid",
+                          "width": "fill_container",
+                          "stroke": "#222222",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "enwXj",
+                              "name": "Data Header Row",
+                              "width": "fill_container",
+                              "height": 46,
+                              "fill": "#FFFFFF10",
+                              "stroke": "#222222",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "uOABp",
+                                  "name": "Cell 0-0",
+                                  "width": 140,
+                                  "stroke": "#222222",
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "YCwrZ",
+                                      "name": "Cell Text 0-0",
+                                      "fill": "#888888",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Subsystem",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Geist Mono",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "J4YMS",
+                                  "name": "Cell 0-1",
+                                  "width": 150,
+                                  "stroke": "#222222",
+                                  "strokeWidth": {
+                                    "left": 1
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "mLfAv",
+                                      "name": "Cell Text 0-1",
+                                      "fill": "#888888",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Signal",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Geist Mono",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "UwYjZ",
+                                  "name": "Cell 0-2",
+                                  "width": "fill_container",
+                                  "stroke": "#222222",
+                                  "strokeWidth": {
+                                    "left": 1
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "R5aKcz",
+                                      "name": "Cell Text 0-2",
+                                      "fill": "#888888",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Purpose",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Geist Mono",
+                                      "fontSize": 11,
+                                      "fontWeight": "600"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "oWNMB",
+                              "name": "Data Row 1",
+                              "width": "fill_container",
+                              "height": 39,
+                              "fill": "#0A0A0A",
+                              "stroke": "#222222",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "UZpIp",
+                                  "name": "Cell 1-0",
+                                  "width": 140,
+                                  "stroke": "#222222",
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "aBzrb",
+                                      "name": "Cell Text 1-0",
+                                      "fill": "#FFFFFF",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Perception",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "myOlm",
+                                  "name": "Cell 1-1",
+                                  "width": 150,
+                                  "stroke": "#222222",
+                                  "strokeWidth": {
+                                    "left": 1
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "e3nHC8",
+                                      "name": "Cell Text 1-1",
+                                      "fill": "#b18c56",
+                                      "textGrowth": "fixed-width",
+                                      "width": 138,
+                                      "content": "Vision + tactile",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "IBM Plex Mono",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "QQDmG",
+                                  "name": "Cell 1-2",
+                                  "width": "fill_container",
+                                  "stroke": "#222222",
+                                  "strokeWidth": {
+                                    "left": 1
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "wdDwx",
+                                      "name": "Cell Text 1-2",
+                                      "fill": "#FFFFFF",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Human-scale scene awareness",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "UqFBt",
+                              "name": "Data Row 2",
+                              "width": "fill_container",
+                              "height": 39,
+                              "fill": "#0A0A0A",
+                              "stroke": "#222222",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Tc312",
+                                  "name": "Cell 2-0",
+                                  "width": 140,
+                                  "stroke": "#222222",
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "HYpun",
+                                      "name": "Cell Text 2-0",
+                                      "fill": "#FFFFFF",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Motor Cortex",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "pDFOf",
+                                  "name": "Cell 2-1",
+                                  "width": 150,
+                                  "stroke": "#222222",
+                                  "strokeWidth": {
+                                    "left": 1
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "ZQ0K9",
+                                      "name": "Cell Text 2-1",
+                                      "fill": "#b18c56",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Intent planner",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "IBM Plex Mono",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "RC4zF",
+                                  "name": "Cell 2-2",
+                                  "width": "fill_container",
+                                  "stroke": "#222222",
+                                  "strokeWidth": {
+                                    "left": 1
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "vAXhh",
+                                      "name": "Cell Text 2-2",
+                                      "fill": "#FFFFFF",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Continuous dexterous motion",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "nLjvV",
+                              "name": "Data Row 3",
+                              "width": "fill_container",
+                              "height": 37,
+                              "fill": "#0A0A0A",
+                              "stroke": "#222222",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "E2YcMD",
+                                  "name": "Cell 3-0",
+                                  "width": 140,
+                                  "stroke": "#222222",
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "fTJL7",
+                                      "name": "Cell Text 3-0",
+                                      "fill": "#FFFFFF",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Actuation",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "cldC3",
+                                  "name": "Cell 3-1",
+                                  "width": 150,
+                                  "stroke": "#222222",
+                                  "strokeWidth": {
+                                    "left": 1
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "u1LaVk",
+                                      "name": "Cell Text 3-1",
+                                      "fill": "#b18c56",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Tendon arrays",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "IBM Plex Mono",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "BkyKP",
+                                  "name": "Cell 3-2",
+                                  "width": "fill_container",
+                                  "stroke": "#222222",
+                                  "strokeWidth": {
+                                    "left": 1
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "umTi3",
+                                      "name": "Cell Text 3-2",
+                                      "fill": "#FFFFFF",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Biomimetic force transfer",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "n6kOO8",
+                              "name": "Data Row 4",
+                              "width": "fill_container",
+                              "height": 52,
+                              "fill": "#0A0A0A",
+                              "stroke": "#222222",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "VNBDm",
+                                  "name": "Cell 4-0",
+                                  "width": 140,
+                                  "stroke": "#222222",
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "tAJeB",
+                                      "name": "Cell Text 4-0",
+                                      "fill": "#FFFFFF",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Materials",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "vJzbZ",
+                                  "name": "Cell 4-1",
+                                  "width": 150,
+                                  "stroke": "#222222",
+                                  "strokeWidth": {
+                                    "left": 1
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "M9N1M",
+                                      "name": "Cell Text 4-1",
+                                      "fill": "#b18c56",
+                                      "textGrowth": "fixed-width",
+                                      "width": 138,
+                                      "content": "Skin + compliance",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "IBM Plex Mono",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "EdyVy",
+                                  "name": "Cell 4-2",
+                                  "width": "fill_container",
+                                  "stroke": "#222222",
+                                  "strokeWidth": {
+                                    "left": 1
+                                  },
+                                  "padding": [
+                                    0,
+                                    14
+                                  ],
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "id": "o4Oyvk",
+                                      "name": "Cell Text 4-2",
+                                      "fill": "#FFFFFF",
+                                      "textGrowth": "fixed-width",
+                                      "width": "fill_container",
+                                      "content": "Safe physical interaction",
+                                      "lineHeight": 1.35,
+                                      "fontFamily": "Inter",
+                                      "fontSize": 14,
+                                      "fontWeight": "normal"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "i1XDp",
+                          "name": "Technology Stats",
+                          "width": "fill_container",
+                          "gap": 14,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "BGTYO",
+                              "name": "Stat 27+",
+                              "width": "fill_container",
+                              "height": 96,
+                              "fill": "#FFFFFF0F",
+                              "cornerRadius": 12,
+                              "layout": "vertical",
+                              "gap": 4,
+                              "padding": 18,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "cAa9X",
+                                  "name": "Stat Value 27+",
+                                  "fill": "#FFFFFF",
+                                  "content": "27+",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 32,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "R8veB5",
+                                  "name": "Stat Label 27+",
+                                  "fill": "#888888",
+                                  "textGrowth": "fixed-width",
+                                  "width": 143,
+                                  "content": "HAND DEGREES OF FREEDOM",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DJIas",
+                              "name": "Stat 12",
+                              "width": "fill_container",
+                              "fill": "#FFFFFF0F",
+                              "cornerRadius": 12,
+                              "layout": "vertical",
+                              "gap": 4,
+                              "padding": 18,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "WMf9G",
+                                  "name": "Stat Value 12",
+                                  "fill": "#FFFFFF",
+                                  "content": "12",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 32,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "A7JWPB",
+                                  "name": "Stat Label 12",
+                                  "fill": "#888888",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "MATERIAL STACK TESTS",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "fqFbH",
+                              "name": "Stat 4 ms",
+                              "width": "fill_container",
+                              "fill": "#FFFFFF0F",
+                              "cornerRadius": 12,
+                              "layout": "vertical",
+                              "gap": 4,
+                              "padding": 18,
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "ykDvE",
+                                  "name": "Stat Value 4 ms",
+                                  "fill": "#FFFFFF",
+                                  "content": "4 ms",
+                                  "fontFamily": "IBM Plex Mono",
+                                  "fontSize": 32,
+                                  "fontWeight": "600"
+                                },
+                                {
+                                  "type": "text",
+                                  "id": "yEn5A",
+                                  "name": "Stat Label 4 ms",
+                                  "fill": "#888888",
+                                  "textGrowth": "fixed-width",
+                                  "width": "fill_container",
+                                  "content": "CONTROL-LOOP TARGET",
+                                  "lineHeight": 1.35,
+                                  "fontFamily": "Geist Mono",
+                                  "fontSize": 10,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ONpOC",
+          "name": "Progress Roadmap Founder CTA Sections",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ySmRX",
+              "name": "Current Progress Section",
+              "width": "fill_container",
+              "height": 860,
+              "fill": "#FFFFFF",
+              "layout": "vertical",
+              "gap": 44,
+              "padding": [
+                110,
+                80,
+                80,
+                80
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "OgiS0",
+                  "name": "Progress Intro",
+                  "width": 940,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MA0Qu",
+                      "name": "Progress Eyebrow",
+                      "fill": "#b18c56",
+                      "content": "CURRENT PROGRESS",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "L12zxk",
+                      "name": "Progress Heading",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Building the Human Hand First",
+                      "lineHeight": 1.05,
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 48,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OZDg5",
+                      "name": "Progress Body",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 820,
+                      "content": "The human hand is one of the most complex and important components of any humanoid robot. We have begun development by focusing on the robotic hand, specifically the index finger.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H4K3l7",
+                  "name": "Finger Prototype Showcase",
+                  "width": 1160,
+                  "height": 450,
+                  "fill": "#0A0A0A",
+                  "cornerRadius": 24,
+                  "effect": {
+                    "type": "shadow",
+                    "shadowType": "outer",
+                    "color": "#00000066",
+                    "offset": {
+                      "x": 0,
+                      "y": 18
+                    },
+                    "blur": 34
+                  },
+                  "gap": 34,
+                  "padding": 32,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pcXPI",
+                      "name": "Anatomical Finger Visual",
+                      "clip": true,
+                      "width": 510,
+                      "height": "fill_container",
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "Generated%20Robotic%20Human%20Hand%20Visual.png",
+                        "mode": "fit"
+                      },
+                      "cornerRadius": 16,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "id": "v7tRr",
+                          "x": 0,
+                          "y": 0,
+                          "name": "Generated Robotic Human Hand Visual",
+                          "width": 0,
+                          "height": 0
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SpbsH",
+                          "x": 32,
+                          "y": 32,
+                          "name": "Visual Transition Chip",
+                          "fill": "#FFFFFFEC",
+                          "cornerRadius": 9999,
+                          "gap": 9,
+                          "padding": [
+                            9,
+                            13
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "dmJ7n",
+                              "name": "Live Status Dot",
+                              "fill": "#b18c56",
+                              "width": 8,
+                              "height": 8
+                            },
+                            {
+                              "type": "text",
+                              "id": "BK1mI",
+                              "name": "Transition Chip Label",
+                              "fill": "#1A1A1A",
+                              "content": "Index finger anatomical prototype",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 10,
+                              "fontWeight": "650"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lgMCA",
+                      "name": "Prototype Replication List",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "layout": "vertical",
+                      "gap": 18,
+                      "padding": [
+                        14,
+                        0
+                      ],
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kM7w0",
+                          "name": "Prototype Copy",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Current prototypes replicate skeletal bone structures, tendon routing systems, ligament-like support mechanisms, joint capsule functionality, and soft tissue structures beneath the skin.",
+                          "lineHeight": 1.45,
+                          "fontFamily": "Inter",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TtErc",
+                          "name": "Skeletal bone structures Row",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "mqxxk",
+                              "name": "Skeletal bone structures Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "ozOUf",
+                              "name": "Skeletal bone structures",
+                              "fill": "#FFFFFFCC",
+                              "content": "Skeletal bone structures",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WkkJj",
+                          "name": "Tendon routing systems Row",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "TUdMS",
+                              "name": "Tendon routing systems Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "z5OSq",
+                              "name": "Tendon routing systems",
+                              "fill": "#FFFFFFCC",
+                              "content": "Tendon routing systems",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "naBIp",
+                          "name": "Ligament-like support mechanisms Row",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "U6kBSs",
+                              "name": "Ligament-like support mechanisms Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "L8Gc9",
+                              "name": "Ligament-like support mechanisms",
+                              "fill": "#FFFFFFCC",
+                              "content": "Ligament-like support mechanisms",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xoru2",
+                          "name": "Joint capsule functionality Row",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "K2xzA",
+                              "name": "Joint capsule functionality Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "NzsXt",
+                              "name": "Joint capsule functionality",
+                              "fill": "#FFFFFFCC",
+                              "content": "Joint capsule functionality",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dpEcC",
+                          "name": "Soft tissue structures beneath the skin Row",
+                          "width": "fill_container",
+                          "gap": 12,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "iFWYC",
+                              "name": "Soft tissue structures beneath the skin Check",
+                              "width": 18,
+                              "height": 18,
+                              "icon": "check",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "I7VKA9",
+                              "name": "Soft tissue structures beneath the skin",
+                              "fill": "#FFFFFFCC",
+                              "content": "Soft tissue structures beneath the skin",
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IBd4g",
+                          "name": "Milestone Badge",
+                          "fill": "#FFFFFF12",
+                          "cornerRadius": 9999,
+                          "stroke": "#FFFFFF22",
+                          "strokeWidth": 1,
+                          "gap": 10,
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "M3xzq",
+                              "name": "Milestone Label",
+                              "fill": "#FFFFFF88",
+                              "content": "Prototype Stage:",
+                              "fontFamily": "Geist Mono",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            },
+                            {
+                              "type": "text",
+                              "id": "nJLrP",
+                              "name": "Milestone Value",
+                              "fill": "#FFFFFF",
+                              "content": "Functional Anatomical Finger Development",
+                              "fontFamily": "Inter",
+                              "fontSize": 14,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Zstn2",
+              "name": "Why Hands Matter Section",
+              "width": "fill_container",
+              "height": 620,
+              "fill": "#FFFFFF",
+              "gap": 84,
+              "padding": [
+                90,
+                120
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "a9w6TS",
+                  "name": "Hands Matter Copy",
+                  "width": 560,
+                  "layout": "vertical",
+                  "gap": 20,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uezNJ",
+                      "name": "Hands Eyebrow",
+                      "fill": "#b18c56",
+                      "content": "WHY HANDS MATTER",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "K0Vooz",
+                      "name": "Hands Heading",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The Ultimate Test of Humanoid Dexterity",
+                      "lineHeight": 1.08,
+                      "fontFamily": "Geist",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mJFuY",
+                      "name": "Hands Body",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Human intelligence is only useful if it can interact with the physical world. The ability to grasp, manipulate tools, feel pressure, perform delicate tasks, and interact naturally with objects depends on highly dexterous hands. We believe solving the hand is one of the most important challenges in humanoid robotics.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "efhEu",
+                  "name": "Dexterity Capability Diagram",
+                  "width": 480,
+                  "height": 380,
+                  "fill": "#F7F9FA",
+                  "cornerRadius": 24,
+                  "stroke": "#EEF0F2",
+                  "strokeWidth": 1,
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "li5Do",
+                      "x": 170,
+                      "y": 120,
+                      "name": "Dexterity Core",
+                      "width": 140,
+                      "height": 140,
+                      "fill": "#0A0A0A",
+                      "cornerRadius": 9999,
+                      "layout": "vertical",
+                      "gap": 8,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "J0irdX",
+                          "name": "Dexterity Core Icon",
+                          "width": 34,
+                          "height": 34,
+                          "icon": "hand",
+                          "library": "lucide",
+                          "fill": "#b18c56"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EfSGf",
+                          "name": "Dexterity Core Label",
+                          "fill": "#FFFFFF",
+                          "content": "Dexterity",
+                          "fontFamily": "Geist",
+                          "fontSize": 18,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "f80wnr",
+                      "x": 52,
+                      "y": 58,
+                      "name": "Grasp Capability",
+                      "width": 148,
+                      "height": 62,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": "#EEF0F2",
+                      "strokeWidth": 1,
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "ZFGEJ",
+                          "name": "Grasp Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "hand",
+                          "library": "lucide",
+                          "fill": "#b18c56"
+                        },
+                        {
+                          "type": "text",
+                          "id": "PlnIt",
+                          "name": "Grasp Label",
+                          "fill": "#1A1A1A",
+                          "content": "Grasp",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "g4BNR",
+                      "x": 314,
+                      "y": 58,
+                      "name": "Feel Capability",
+                      "width": 148,
+                      "height": 62,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": "#EEF0F2",
+                      "strokeWidth": 1,
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "XkimD",
+                          "name": "Feel Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "scan-heart",
+                          "library": "lucide",
+                          "fill": "#b18c56"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VB3kx",
+                          "name": "Feel Label",
+                          "fill": "#1A1A1A",
+                          "content": "Feel",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "k976C1",
+                      "x": 48,
+                      "y": 268,
+                      "name": "Tools Capability",
+                      "width": 148,
+                      "height": 62,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": "#EEF0F2",
+                      "strokeWidth": 1,
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "WPSSC",
+                          "name": "Tools Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "wrench",
+                          "library": "lucide",
+                          "fill": "#b18c56"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZSwbq",
+                          "name": "Tools Label",
+                          "fill": "#1A1A1A",
+                          "content": "Tools",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "S0iQ4B",
+                      "x": 286,
+                      "y": 268,
+                      "name": "Delicate Tasks Capability",
+                      "width": 176,
+                      "height": 62,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 12,
+                      "stroke": "#EEF0F2",
+                      "strokeWidth": 1,
+                      "gap": 10,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "RvwVw",
+                          "name": "Delicate Tasks Icon",
+                          "width": 20,
+                          "height": 20,
+                          "icon": "sparkles",
+                          "library": "lucide",
+                          "fill": "#b18c56"
+                        },
+                        {
+                          "type": "text",
+                          "id": "BP8gA",
+                          "name": "Delicate Tasks Label",
+                          "fill": "#1A1A1A",
+                          "content": "Delicate Tasks",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "l1H4ZR",
+              "name": "Technical Approach Section",
+              "width": "fill_container",
+              "height": 790,
+              "fill": "#F7F9FA",
+              "layout": "vertical",
+              "gap": 42,
+              "padding": [
+                92,
+                80
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "q4dWT",
+                  "name": "Approach Intro",
+                  "width": 860,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d3nVB6",
+                      "name": "Approach Eyebrow",
+                      "fill": "#b18c56",
+                      "content": "TECHNICAL APPROACH",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zd63k",
+                      "name": "Approach Heading",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Hardware Meets Intelligence",
+                      "lineHeight": 1.08,
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 46,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nosvf",
+                      "name": "Approach Body",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": 790,
+                      "content": "Takween combines advanced robotics with modern AI systems, enabling future humanoid systems to perceive, reason, and interact with their environments in increasingly human-like ways.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HGpNK",
+                  "name": "Development Stack Grid",
+                  "width": 1080,
+                  "layout": "vertical",
+                  "gap": 14,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MEAfq",
+                      "name": "Stack Row 1",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "O6SZDU",
+                          "name": "Multi-material 3D manufacturing Cell",
+                          "width": "fill_container",
+                          "height": 136,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "stroke": "#EEF0F2",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 18,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "iw7Ew",
+                              "name": "Multi-material 3D manufacturing Icon",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "printer",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "rvR2u",
+                              "name": "Multi-material 3D manufacturing",
+                              "fill": "#1A1A1A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Multi-material 3D manufacturing",
+                              "lineHeight": 1.25,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "n8f9C",
+                          "name": "Embedded robotics systems Cell",
+                          "width": "fill_container",
+                          "height": 136,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "stroke": "#EEF0F2",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 18,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "Hdb3j",
+                              "name": "Embedded robotics systems Icon",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "cpu",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "oVRur",
+                              "name": "Embedded robotics systems",
+                              "fill": "#1A1A1A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Embedded robotics systems",
+                              "lineHeight": 1.25,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wY8yX",
+                          "name": "Real-time control software Cell",
+                          "width": "fill_container",
+                          "height": 136,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "stroke": "#EEF0F2",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 18,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "m77sQQ",
+                              "name": "Real-time control software Icon",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "activity",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "o3vvP6",
+                              "name": "Real-time control software",
+                              "fill": "#1A1A1A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Real-time control software",
+                              "lineHeight": 1.25,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ifhlt",
+                      "name": "Stack Row 2",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "hSRin",
+                          "name": "Computer vision Cell",
+                          "width": "fill_container",
+                          "height": 136,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "stroke": "#EEF0F2",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 18,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "GZ2uE",
+                              "name": "Computer vision Icon",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "eye",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "fijF3",
+                              "name": "Computer vision",
+                              "fill": "#1A1A1A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Computer vision",
+                              "lineHeight": 1.25,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "V4rXh8",
+                          "name": "Tactile sensing Cell",
+                          "width": "fill_container",
+                          "height": 136,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "stroke": "#EEF0F2",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 18,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "J9LgiZ",
+                              "name": "Tactile sensing Icon",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "scan",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "G2WYB",
+                              "name": "Tactile sensing",
+                              "fill": "#1A1A1A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Tactile sensing",
+                              "lineHeight": 1.25,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qm07L",
+                          "name": "Large language models Cell",
+                          "width": "fill_container",
+                          "height": 136,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "stroke": "#EEF0F2",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 18,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "qhBGR",
+                              "name": "Large language models Icon",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "brain",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "nCoEh",
+                              "name": "Large language models",
+                              "fill": "#1A1A1A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Large language models",
+                              "lineHeight": 1.25,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iSl29",
+                      "name": "Stack Row 3",
+                      "width": "fill_container",
+                      "gap": 14,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "myaK7",
+                          "name": "Custom Python software Cell",
+                          "width": "fill_container",
+                          "height": 136,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "stroke": "#EEF0F2",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 18,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "PjQ2T",
+                              "name": "Custom Python software Icon",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "file-code",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "g7Mok",
+                              "name": "Custom Python software",
+                              "fill": "#1A1A1A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Custom Python software",
+                              "lineHeight": 1.25,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "G6spuw",
+                          "name": "Custom C++ robotics software Cell",
+                          "width": "fill_container",
+                          "height": 136,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "stroke": "#EEF0F2",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 18,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "mMG8G",
+                              "name": "Custom C++ robotics software Icon",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "braces",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "aUgyJ",
+                              "name": "Custom C++ robotics software",
+                              "fill": "#1A1A1A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Custom C++ robotics software",
+                              "lineHeight": 1.25,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "B3BFYF",
+                          "name": "Integrated reasoning loops Cell",
+                          "width": "fill_container",
+                          "height": 136,
+                          "fill": "#FFFFFF",
+                          "cornerRadius": 12,
+                          "stroke": "#EEF0F2",
+                          "strokeWidth": 1,
+                          "layout": "vertical",
+                          "gap": 12,
+                          "padding": 18,
+                          "children": [
+                            {
+                              "type": "icon",
+                              "id": "d8T08",
+                              "name": "Integrated reasoning loops Icon",
+                              "width": 24,
+                              "height": 24,
+                              "icon": "git-branch-plus",
+                              "library": "lucide",
+                              "fill": "#b18c56"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Rr7jD",
+                              "name": "Integrated reasoning loops",
+                              "fill": "#1A1A1A",
+                              "textGrowth": "fixed-width",
+                              "width": "fill_container",
+                              "content": "Integrated reasoning loops",
+                              "lineHeight": 1.25,
+                              "fontFamily": "Inter",
+                              "fontSize": 16,
+                              "fontWeight": "600"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "M2Lp8",
+              "name": "Roadmap Section",
+              "width": "fill_container",
+              "height": 720,
+              "fill": "#0A0A0A",
+              "layout": "vertical",
+              "gap": 48,
+              "padding": [
+                92,
+                90
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mDfFF",
+                  "name": "Roadmap Intro",
+                  "width": 840,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lTwSz",
+                      "name": "Roadmap Eyebrow",
+                      "fill": "#b18c56",
+                      "content": "ROADMAP",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "k5MyZ",
+                      "name": "Roadmap Heading",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "What Comes Next",
+                      "lineHeight": 1.08,
+                      "textAlign": "center",
+                      "fontFamily": "Geist",
+                      "fontSize": 46,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HmBJQ",
+                      "name": "Roadmap Body",
+                      "fill": "#FFFFFFAA",
+                      "textGrowth": "fixed-width",
+                      "width": 720,
+                      "content": "Takween is advancing from anatomically accurate hand systems toward complete artificial human platforms.",
+                      "lineHeight": 1.5,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "P2nSu",
+                  "name": "Roadmap Phases",
+                  "width": 1120,
+                  "height": 320,
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "U2cbcW",
+                      "name": "Phase 01",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#FFFFFF0F",
+                      "cornerRadius": 16,
+                      "stroke": "#FFFFFF20",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": 24,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "iKxZY",
+                          "name": "Phase 01 Topline",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ExKyg",
+                              "name": "Phase 01 Number",
+                              "fill": "#b18c56",
+                              "content": "01",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 34,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "Duykb",
+                              "name": "Phase 01 Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "hand",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "B4Pi1B",
+                          "name": "Phase 01 Title",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Anatomically Accurate Robotic Hand",
+                          "lineHeight": 1.18,
+                          "fontFamily": "Geist",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GRcpJ",
+                      "name": "Phase 02",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#FFFFFF0F",
+                      "cornerRadius": 16,
+                      "stroke": "#FFFFFF20",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": 24,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "iXbdn",
+                          "name": "Phase 02 Topline",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "vIe0n",
+                              "name": "Phase 02 Number",
+                              "fill": "#b18c56",
+                              "content": "02",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 34,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "n6F47h",
+                              "name": "Phase 02 Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "bone",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "S5227K",
+                          "name": "Phase 02 Title",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Complete Upper Limb System",
+                          "lineHeight": 1.18,
+                          "fontFamily": "Geist",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RASp7",
+                      "name": "Phase 03",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#FFFFFF0F",
+                      "cornerRadius": 16,
+                      "stroke": "#FFFFFF20",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": 24,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "jyJiD",
+                          "name": "Phase 03 Topline",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "K8x0m",
+                              "name": "Phase 03 Number",
+                              "fill": "#b18c56",
+                              "content": "03",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 34,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "TAJx4",
+                              "name": "Phase 03 Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "bot",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "jtVlE",
+                          "name": "Phase 03 Title",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Full Humanoid Body Platform",
+                          "lineHeight": 1.18,
+                          "fontFamily": "Geist",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dtHWO",
+                      "name": "Phase 04",
+                      "width": "fill_container",
+                      "height": "fill_container",
+                      "fill": "#FFFFFF0F",
+                      "cornerRadius": 16,
+                      "stroke": "#FFFFFF20",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": 24,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "SNv2h",
+                          "name": "Phase 04 Topline",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "q79oms",
+                              "name": "Phase 04 Number",
+                              "fill": "#b18c56",
+                              "content": "04",
+                              "fontFamily": "IBM Plex Mono",
+                              "fontSize": 34,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "icon",
+                              "id": "z6dUw",
+                              "name": "Phase 04 Icon",
+                              "width": 28,
+                              "height": 28,
+                              "icon": "network",
+                              "library": "lucide",
+                              "fill": "#FFFFFF"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "rjt5G",
+                          "name": "Phase 04 Title",
+                          "fill": "#FFFFFF",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Artificial Human Capabilities at Scale",
+                          "lineHeight": 1.18,
+                          "fontFamily": "Geist",
+                          "fontSize": 22,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kL9TK",
+              "name": "Founder Section",
+              "width": "fill_container",
+              "height": 500,
+              "fill": "#FFFFFF",
+              "gap": 72,
+              "padding": [
+                84,
+                120
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "p1pFk",
+                  "name": "Founder Mark",
+                  "clip": true,
+                  "width": 300,
+                  "height": 300,
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "amr-profile-pic.jpeg",
+                    "mode": "fill"
+                  },
+                  "cornerRadius": 24,
+                  "stroke": "#EEF0F2",
+                  "strokeWidth": 1,
+                  "layout": "none"
+                },
+                {
+                  "type": "frame",
+                  "id": "nrdji",
+                  "name": "Founder Copy",
+                  "width": 670,
+                  "layout": "vertical",
+                  "gap": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NzF5L",
+                      "name": "Founder Eyebrow",
+                      "fill": "#b18c56",
+                      "content": "FOUNDER",
+                      "fontFamily": "Geist Mono",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dfeAn",
+                      "name": "Founder Heading",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Founded by Amr Al-Refae",
+                      "lineHeight": 1.08,
+                      "fontFamily": "Geist",
+                      "fontSize": 44,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "fbqHo",
+                      "name": "Founder Body",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Takween Robotics was founded by Amr Al-Refae, a technical founder building the company from the ground up. All hardware, software, prototyping, and system development are currently being designed and implemented in-house.",
+                      "lineHeight": 1.55,
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "d106at",
+              "name": "Final CTA Section",
+              "width": "fill_container",
+              "height": 620,
+              "fill": "#0A0A0A",
+              "layout": "vertical",
+              "gap": 41,
+              "padding": [
+                100,
+                80
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rvsH2",
+                  "name": "Takween Robotics Centered Logo",
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Sz6eY",
+                      "name": "Takween Logo Wordmark",
+                      "fill": "#ffffffff",
+                      "content": "T A K W E E N",
+                      "textAlign": "center",
+                      "fontFamily": "Asimovian",
+                      "fontSize": 48
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lSt3W",
+                      "name": "Takween Robotics Subline",
+                      "width": 314,
+                      "gap": 4,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 9999,
+                          "id": "Lni0c",
+                          "name": "Logo Left Divider",
+                          "fill": "#C4A17A",
+                          "width": 43,
+                          "height": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "gTOyr",
+                          "name": "Takween Logo Robotics",
+                          "fill": "#C4A17A",
+                          "textGrowth": "fixed-width-height",
+                          "width": "fit_content(214)",
+                          "height": "fit_content(28)",
+                          "content": "R O B O T I C S",
+                          "textAlign": "right",
+                          "textAlignVertical": "middle",
+                          "fontFamily": "Oxanium",
+                          "fontSize": 20,
+                          "fontWeight": "700",
+                          "letterSpacing": 5
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 9999,
+                          "id": "pNdYi",
+                          "name": "Logo Right Divider",
+                          "fill": "#C4A17A",
+                          "width": 43,
+                          "height": 2
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YEeGF",
+                  "name": "CTA Signal Strip",
+                  "width": 760,
+                  "height": 8,
+                  "fill": {
+                    "type": "gradient",
+                    "gradientType": "linear",
+                    "enabled": true,
+                    "rotation": 90,
+                    "size": {
+                      "height": 1
+                    },
+                    "colors": [
+                      {
+                        "color": "#B8915A00",
+                        "position": 0
+                      },
+                      {
+                        "color": "#B8915A",
+                        "position": 0.5
+                      },
+                      {
+                        "color": "#B8915A00",
+                        "position": 1
+                      }
+                    ]
+                  },
+                  "cornerRadius": 9999
+                },
+                {
+                  "type": "text",
+                  "id": "d1re3F",
+                  "name": "Final CTA Headline",
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": 900,
+                  "content": "Help Shape the Future of Artificial Humans",
+                  "lineHeight": 1.05,
+                  "textAlign": "center",
+                  "fontFamily": "Geist",
+                  "fontSize": 54,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "nEmwZ",
+                  "name": "Final CTA Subheadline",
+                  "fill": "#FFFFFFAA",
+                  "textGrowth": "fixed-width",
+                  "width": 660,
+                  "content": "Follow our journey as we build the next generation of humanoid robotics.",
+                  "lineHeight": 1.5,
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 19,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "aQKjw",
+                  "name": "Final CTA Buttons",
+                  "gap": 14,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "X2BQf5",
+                      "name": "Join the Waitlist Button",
+                      "fill": "#b18c56",
+                      "cornerRadius": 9999,
+                      "stroke": "#b18c56",
+                      "strokeWidth": 1,
+                      "gap": 9,
+                      "padding": [
+                        14,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "awZA4",
+                          "name": "Join the Waitlist Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "mail",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "zy45B",
+                          "name": "Join the Waitlist Label",
+                          "fill": "#FFFFFF",
+                          "content": "Join the Waitlist",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "uIllx",
+                      "name": "Contact Us Button",
+                      "fill": "#FFFFFF12",
+                      "cornerRadius": 9999,
+                      "stroke": "#FFFFFF24",
+                      "strokeWidth": 1,
+                      "gap": 9,
+                      "padding": [
+                        14,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "dkIEG",
+                          "name": "Contact Us Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "send",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "rGEmr",
+                          "name": "Contact Us Label",
+                          "fill": "#FFFFFF",
+                          "content": "Contact Us",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HLVz9",
+                      "name": "Follow Development Updates Button",
+                      "fill": "#FFFFFF12",
+                      "cornerRadius": 9999,
+                      "stroke": "#FFFFFF24",
+                      "strokeWidth": 1,
+                      "gap": 9,
+                      "padding": [
+                        14,
+                        20
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon",
+                          "id": "Nn2DM",
+                          "name": "Follow Development Updates Icon",
+                          "width": 18,
+                          "height": 18,
+                          "icon": "rss",
+                          "library": "lucide",
+                          "fill": "#FFFFFF"
+                        },
+                        {
+                          "type": "text",
+                          "id": "lSW5z",
+                          "name": "Follow Development Updates Label",
+                          "fill": "#FFFFFF",
+                          "content": "Follow Development Updates",
+                          "fontFamily": "Inter",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
